@@ -6181,7 +6181,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libselinux",
                 "libexif-jpeg-aps",
-                "libextendfile",
+                "libextendfile_odm",
                 "libc++",
                 "libc",
                 "libm",
@@ -8761,7 +8761,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libextendfile",
+    name: "libextendfile_odm",
+    stem: "libextendfile",
     owner: "realme",
     strip: {
         none: true,
