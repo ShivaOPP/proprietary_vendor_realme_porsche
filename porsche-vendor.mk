@@ -791,6 +791,7 @@ PRODUCT_PACKAGES += \
     libPlatformValidatorShared \
     libPolarrRender \
     libPreviewDecisionOld \
+    libQnnHtpAltPrepStub \
     libQnnHtpStub \
     libRedeyeReduce \
     libSNPE \
