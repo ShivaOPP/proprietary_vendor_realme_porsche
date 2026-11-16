@@ -6,7 +6,6 @@ soong_namespace {
     imports: [
         "hardware/oplus",
         "vendor/oneplus/sm8350-common",
-        "vendor/qcom/opensource/display",
     ],
 }
 

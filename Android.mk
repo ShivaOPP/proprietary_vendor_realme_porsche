@@ -5,6 +5,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),porsche)
+ifeq ($(ADD_RADIO_FILES),true)
 
 $(call add-radio-file-sha1-checked,radio/abl.img,23081bf8dd7b3ff721035095c07238d7bfa2f0aa)
 $(call add-radio-file-sha1-checked,radio/aop.img,251e6d453bafae9fc5ebd609384bff1301d9e48b)
@@ -29,5 +30,7 @@ $(call add-radio-file-sha1-checked,radio/tz.img,3f80d587af2523d4095c9102bb5ba7ae
 $(call add-radio-file-sha1-checked,radio/uefisecapp.img,4f0a7b6be011f4c0f0e81a3b5732263d38e329c1)
 $(call add-radio-file-sha1-checked,radio/xbl.img,33ef14da3bcee1895fbf32dc7733cc4746aa0b67)
 $(call add-radio-file-sha1-checked,radio/xbl_config.img,9c149a096fcb29459f10322b974d300292ddba8f)
+
+endif
 
 endif
